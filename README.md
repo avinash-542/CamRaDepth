@@ -169,6 +169,7 @@ pip install scikit-image
 ## External Repos
 1. Clone RAFT to ```external/``` and run below script
 ```
+mkdir external
 cd external
 git clone https://github.com/princeton-vl/RAFT.git
 cd RAFT && ./download_models.sh
@@ -177,6 +178,14 @@ cd ..
 2. Clone Panoptic-DeepLab to ```external/```
 ```
 git clone https://github.com/bowenc0221/panoptic-deeplab.git
+```
+3. Clone mseg to ```external/```
+```
+git clone https://github.com/mseg-dataset/mseg-semantic.git
+```
+4. Clone RC-PDA also
+```
+git clone https://github.com/longyunf/rc-pda.git
 ```
 
 ## Implementation
