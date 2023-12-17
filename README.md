@@ -74,7 +74,7 @@ sudo apt-get install pip
 ```
 3. Now, clone this repository using following command:
 ```
-git clone <>
+git clone https://github.com/airou-lab/CamRaDepth.git
 ```
 4. Once cloning is complete, navigate into the cloned repository:
 ```
@@ -333,4 +333,16 @@ python visualization/visualization.py --vis_num 10
 ```
 This module will create and save to the disk a variety of inputs, such as the depth map, RADAR and LiDAR projection onto the image place, transperent depth projection, semantic segmenation, etc for each one of the input instances of the given dataset (for `vis_num` different inputs). One could easily view the different visualizations under `output_dir/visualizations/collage` as a single collage, or go to the corresponding directory with the specific instance name, that one would like to examine.
 
+## Results
 
+Below are few sample outputs produced by this project
+
+1)
+![output1](results/output1.png)
+
+2)
+![output2](results/output2.png)
+
+Below is a video compiled of a scene to show the semantic segementation working
+1)
+![output3](results/outputVideo.mp4)
