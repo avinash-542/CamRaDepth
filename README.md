@@ -345,4 +345,4 @@ Below are few sample outputs produced by this project
 
 Below is a video compiled of a scene to show the semantic segementation working
 1)
-![output3](results/outputVideo.mp4)
+![output3](results/outputVideo.gif)
